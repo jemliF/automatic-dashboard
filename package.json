@@ -1,0 +1,36 @@
+{
+  "name": "automatic-dashboard",
+  "version": "1.0.0",
+  "description": "Automatic Dashboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemliF/automatic-dashboard.git"
+  },
+  "keywords": [
+    "automatic",
+    "cars",
+    "dashboard",
+    "angularjs",
+    "materialize"
+  ],
+  "author": "Jemli Fathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemliF/automatic-dashboard/issues"
+  },
+  "homepage": "https://github.com/jemliF/automatic-dashboard#readme",
+  "dependencies": {
+    "amcharts3": "github:amcharts/amcharts3",
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-aria": "^1.6.1",
+    "angular-storage": "0.0.15",
+    "angular-ui-router": "^0.3.2",
+    "lodash": "^4.17.4",
+    "materialize-css": "^0.97.8"
+  }
+}

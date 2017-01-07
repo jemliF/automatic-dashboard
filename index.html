@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Automatic Dashboard</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/style.css">
+    <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet'/>
+
+    <!-- Angular modules -->
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/angular-storage/dist/angular-storage.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="routing.js"></script>
+    <!-- Services -->
+
+    <!-- Controllers -->
+    <script src="src/controllers/home.ctrl.js"></script>
+    <script src="src/controllers/login.ctrl.js"></script>
+    <script src="src/controllers/signup.ctrl.js"></script>
+    <script src="src/controllers/demo.ctrl.js"></script>
+    <!-- directives -->
+
+    <!-- MapBox -->
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+</head>
+<body ng-app="automatic-dashboard">
+<nav>
+    <div class="nav-wrapper  light-blue lighten-1">
+        <a ui-sref="home" ui-sref-active="active" class="brand-logo">Automatic Dashboard</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a ui-sref="login" ui-sref-active="active">Login</a></li>
+            <li><a ui-sref="signup" ui-sref-active="active">Signup</a></li>
+            <li><a ui-sref="demo" ui-sref-active="active">Demo</a></li>
+        </ul>
+    </div>
+</nav>
+<ui-view class="container">
+
+</ui-view>
+</body>
+</html>

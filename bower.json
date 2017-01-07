@@ -1,0 +1,25 @@
+{
+  "name": "automatic-dashboard",
+  "description": "Automatic Dashboard",
+  "main": "app.js",
+  "authors": [
+    "Jemli Fathi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "automatic",
+    "cars",
+    "dashboard",
+    "angularjs",
+    "materialize"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
